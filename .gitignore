@@ -1,0 +1,30 @@
+# 체크포인트 / 모델 가중치
+*.pt
+*.pth
+*.onnx
+checkpoints/
+voice_gen_ckpt/
+emb_cache.pt
+
+# 데이터셋 (AI Hub / KSS — repo에 올리지 않음)
+kss/
+New_Sample/
+*.wav
+원천데이터/
+라벨링데이터/
+
+# 학습 산출물
+quick_output/
+*.png
+train_log.json
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
